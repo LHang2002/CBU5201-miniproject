@@ -8,7 +8,7 @@ from torchvision import transforms
 from model import resnet34
 
 
-def main():
+def main(imgs_root):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     data_transform = transforms.Compose(
@@ -19,8 +19,8 @@ def main():
 
     # load image
     # 指向需要遍历预测的图像文件夹
-    #imgs_root = "genki4k/files(splitdata)/test/unsmile"
-    imgs_root = "genki4k/files(splitdata)/test/smile"
+    # imgs_root = "genki4k/files(splitdata)/test/unsmile"
+    # imgs_root = "genki4k/files(splitdata)/test/smile"
     assert os.path.exists(imgs_root), f"file: '{imgs_root}' dose not exist."
     # 读取指定文件夹下所有jpg图像路径
     img_path_list = [os.path.join(imgs_root, i) for i in os.listdir(imgs_root) if i.endswith(".jpg")]
@@ -66,4 +66,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main("genki4k/files(splitdata)/test/unsmile")
+    main("genki4k/files(splitdata)/test/smile")
