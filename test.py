@@ -33,7 +33,7 @@ def main(imgs_root):
     class_indict = json.load(json_file)
 
     # create model
-    model = resnet34(num_classes=5).to(device)
+    model = resnet34(num_classes=2).to(device)
 
     # load model weights
     weights_path = "./resNet34.pth"
