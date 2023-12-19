@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 from torchvision import transforms
 
-from model import resnet34
+from resnet import resnet34
 
 
 def main(imgs_root):

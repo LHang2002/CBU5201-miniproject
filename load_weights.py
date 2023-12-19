@@ -1,7 +1,7 @@
 import os
 import torch
 import torch.nn as nn
-from model import resnet34
+from resnet import resnet34
 
 
 def main():
