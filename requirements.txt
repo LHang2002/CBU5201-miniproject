@@ -1,0 +1,9 @@
+python>=3.10
+dlib>=19.24.2
+numpy>=1.26.2
+opencv_python>=4.8.1.78
+torch>=2.1.2
+torchvision>=0.16.2
+torchaudio>=2.1.2
+matplotlib>=3.8.2
+tqdm>=4.66.1
