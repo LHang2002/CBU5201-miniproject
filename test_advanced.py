@@ -17,10 +17,6 @@ def main(imgs_root):
          transforms.ToTensor(),
          transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
 
-    # load image
-    # 指向需要遍历预测的图像文件夹
-    # imgs_root = "genki4k/files(splitdata)/test/unsmile"
-    # imgs_root = "genki4k/files(splitdata)/test/smile"
     assert os.path.exists(imgs_root), f"file: '{imgs_root}' dose not exist."
     # 读取指定文件夹下所有jpg图像路径
     img_path_list = [os.path.join(imgs_root, i) for i in os.listdir(imgs_root) if i.endswith(".jpg")]
