@@ -30,7 +30,7 @@ For realizing this mini project,we did following steps:
 
 ## Members
 
-&emsp;&emsp;We have two members to finish this project.Yihang Lin,who is a senior undergraduate student at Soochow University,finished the coding part.Rui Chen,who is a third-year student at Beijing University of Posts and Telecommunications,finished the essaying part.
+&emsp;&emsp;We have two members to finish this project.Yihang Lin,who is a senior undergraduate student at Soochow University,finished the coding part.Rui Chen,who is a third-year undergraduate student at Beijing University of Posts and Telecommunications,finished the essaying part.
 
 
 
